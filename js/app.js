@@ -72,3 +72,29 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+//smooth scrolling
+$("#navbarNav a").click(function(e) {
+  var id = $(this).attr("href");
+  var offset = 60;
+  var target = $(id).offset().top - offset;
+  $("html, body").animate(
+    {
+      scrollTop: target
+    },
+    550
+  );
+  e.preventDefault();
+});
+
+/*scroll spy with offset
+  const offsetValue = 40;
+  $("body").data().scrollspy.options.offset = offsetValue;
+  $("body").scrollspy({ target: "#navbarNav" });
+  $("body")
+    .data()
+    .scrollspy.process();
+  
+    */
+
+$("body").scrollspy({ target: "#navbarNav" });
