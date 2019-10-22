@@ -79,7 +79,7 @@
     width: 11%;
     padding-top: 6px;
     /* creates some space between the element and the border. */
-    border-bottom: 6px solid #ec5aaa; }
+    border-bottom: 6px solid #ec42a0; }
 
 .about-sub-title {
   text-align: center;
@@ -87,7 +87,7 @@
 
 .tool-list li {
   padding-bottom: 1.3em;
-  color: #ec5aaa;
+  color: #ec42a0;
   font-weight: bolder; }
 
 .btn {
@@ -104,7 +104,7 @@
 .btn:focus {
   box-shadow: 1px 1px 25px 10px rgba(211, 80, 152, 0.2);
   outline: none !important;
-  border: 3px solid #ed5fac; }
+  border: 3px solid #ec47a2; }
 
 .btn:before {
   content: "";
@@ -127,7 +127,7 @@
   background-color: #fff; }
 
 .portfolio-projects-title {
-  color: #ec5aaa; }
+  color: #ec42a0; }
 
 .portfolio-projects-des {
   letter-spacing: 1.5px; }
@@ -201,7 +201,7 @@
   padding: 0 0.9em;
   color: black; }
   .project-link:hover {
-    color: #ec5aaa;
+    color: #ec42a0;
     text-decoration: none; }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -250,7 +250,7 @@
   background-color: white; }
 
 .form-control:focus {
-  border-color: #ec5aaa;
+  border-color: #ec42a0;
   border-width: 2px;
   box-shadow: none; }
 
@@ -262,7 +262,7 @@
 .contact-btn:hover,
 .contact-btn:active,
 .contact-btn:focus {
-  border: 3px solid #ed5fac; }
+  border: 3px solid #ec47a2; }
 
 .accent-color {
   color: #2961fa; }
