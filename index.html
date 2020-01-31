@@ -212,10 +212,17 @@
                   context & JWT authentication.
                 </p>
 
-                <a class="project-link" href="https://mighty-hollows-08856.herokuapp.com/register" target="_blank"
+                <a
+                  class="project-link"
+                  href="https://mighty-hollows-08856.herokuapp.com/register"
+                  target="_blank"
                   ><i class="fas fa-eye"></i>View</a
                 >
-                <a class="project-link" href="https://github.com/pusya/contact-keeper" target="_blank">
+                <a
+                  class="project-link"
+                  href="https://github.com/pusya/contact-keeper"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>GitHub
                 </a>
               </div>
@@ -298,7 +305,11 @@
                 <a class="project-link" href="ruoyingjiang.site" target="_blank"
                   ><i class="fas fa-eye"></i>View</a
                 >
-                <a class="project-link" href="https://github.com/pusya/profolio" target="_blank">
+                <a
+                  class="project-link"
+                  href="https://github.com/pusya/profolio"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>GitHub
                 </a>
               </div>
@@ -352,7 +363,7 @@
           </div>
         </div>
         <div>
-          <form>
+          <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="row justify-content-center">
               <div class="col-sm-5">
                 <div class="form-group">
@@ -361,6 +372,7 @@
                     id="name"
                     class="form-control"
                     placeholder="Name"
+                    name="name"
                   />
                 </div>
               </div>
@@ -372,6 +384,7 @@
                     id="email"
                     class="form-control"
                     placeholder="Email"
+                    name="email"
                   />
                 </div>
               </div>
@@ -383,6 +396,7 @@
                     id="subject"
                     class="form-control"
                     placeholder="Subject"
+                    name="subject"
                   />
                 </div>
               </div>
@@ -396,7 +410,12 @@
                     class="textarea-message form-control"
                     placeholder="Message"
                     rows="5"
+                    name="message"
                   ></textarea>
+
+                  <div class="my-2">
+                    <div data-netlify-recaptcha="true"></div>
+                  </div>
                 </div>
               </div>
             </div>
