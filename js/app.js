@@ -9,12 +9,12 @@ $(window).scroll(function() {
 
 /* Type writer*/
 class TypeWriter {
-  constructor(txtElement, words, wait = 3000) {
+  constructor(txtElement, words, wait = 500) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = "";
     this.wordIndex = 0;
-    this.wait = parseInt(wait, 10);
+    this.wait = parseInt(wait, 7);
     this.type();
     this.isDeleting = false;
   }
@@ -76,7 +76,7 @@ function init() {
 //smooth scrolling
 $("#navbarNav a").click(function(e) {
   var id = $(this).attr("href");
-  var offset = 60;
+  var offset = 100;
   var target = $(id).offset().top - offset;
   $("html, body").animate(
     {
